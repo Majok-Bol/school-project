@@ -1,0 +1,202 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  top:0;
+}
+.hero{
+  font-family: "Poppins", sans-serif;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(200, 200, 211, 0.8),
+      rgba(136, 192, 206, 0.39)
+    ),
+    url(images/fifthpic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav-link {
+  padding: 10px 0;
+  height: 55px;
+  width: 100%;
+  background-color: rgba(23, 45, 70, 23);
+}
+.nav-link li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: lucida;
+  font-size: 17px;
+  font-weight: 200;
+  transition: ease-in 0.5s;
+  cursor: pointer;
+}
+.nav-link li a:hover {
+  background-color: antiquewhite;
+  color: black;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.nav-link li {
+  padding: 5px;
+  float: left;
+  list-style: none;
+  margin: 0px 25px;
+}
+.quote {
+  float: left;
+}
+.quote h1 {
+  color: chocolate;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+h3 {
+  color: crimson;
+  margin-left: 30px;
+  font-size: 30px;
+  font-family: "Old English Text mt";
+}
+h6 {
+  margin: 15px 0px 0px 35px;
+  font-size: 17px;
+  color: black;
+  font-family: "Times New Roman";
+}
+.form-box {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  padding: 5px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.social-icons {
+  margin: 30px auto;
+  text-align: center;
+}
+.social-icons img {
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f;
+  border-radius: 50%;
+}
+.input-group {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px  0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.chech-box {
+  margin: 30px 10px 30px 0;
+}
+span {
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+#login {
+  left: 50px;
+}
+#Register {
+  left: 450px;
+}
+.icon-list {
+  margin: 2rem;
+}
+
+.french {
+  width: 40%;
+  height: 60%;
+  margin: 0.5rem;
+}
+/* Additional Styles for About Page */
+.content {
+  margin: 4px;
+  padding-top: 2rem;
+}
+
+.content {
+  font-size: 12px;
+  color: hwb(0 10% 10% / 0.747);
+}
+.h3 {
+  font-size: 24px;
+  color: hwb(0 10% 10% / 0.747);
+  /* margin:1rem; */
+  margin: 4px;
+  padding-top: 2rem;
+}
+.content p {
+  font-size: 16px;
+  color: black;
+  margin-top: 10px;
+  line-height: 1.6; /* Improve readability */
+}
+
+.content a {
+  color: #ff105f;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
