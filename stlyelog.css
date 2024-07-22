@@ -6,6 +6,12 @@ body {
   overflow-x: hidden;
   top:0;
 }
+#header {
+    position: fixed;
+    top: 0;
+     width: 100%;
+     margin-bottom: 2rem; /* Adjust as needed */
+}
 .hero{
   font-family: "Poppins", sans-serif;
   background: var(--color-darkblue);
@@ -25,6 +31,7 @@ body {
   width: 100%;
   background-color: rgba(23, 45, 70, 23);
 }
+
 .nav-link li a {
   text-decoration: none;
   display: inline-block;
@@ -58,7 +65,9 @@ body {
   margin-top: 25px;
   margin-left: 20px;
 }
-
+.h1{
+  margin:3px;
+}
 h3 {
   color: crimson;
   margin-left: 30px;
@@ -73,13 +82,13 @@ h6 {
 }
 .form-box {
   width: 380px;
-  height: 480px;
+  height: 450px;
   position: relative;
-  margin: 6% auto;
+  margin: 6rem auto; /* Increase top margin and center horizontally */
   padding: 5px;
-  background-color: #fff;
+  background-color:rgba(0, 119, 255, 0.11);
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .button-box {
   width: 220px;
@@ -161,10 +170,14 @@ span {
 }
 .icon-list {
   margin: 2rem;
+  /* font-size:0.5rem; */
+}
+.icon{
+  font-size: 1rem;
 }
 
 .french {
-  width: 40%;
+  width: 48%;
   height: 60%;
   margin: 0.5rem;
 }
@@ -199,4 +212,30 @@ span {
 
 .content a:hover {
   text-decoration: underline;
+}
+@media (min-width: 194px) and (max-width: 494px) {
+  .nav-link {
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 60%;
+    width: 100%;
+    top:0;
+    background-color: rgba(23, 45, 70, 23);
+  }
+  #login {
+    left: 10px;
+  }
+  .submit-btn {
+    width: 60%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin:0;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  }
+
 }
