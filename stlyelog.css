@@ -239,3 +239,21 @@ span {
   }
 
 }
+@media (min-width: 390px) and (max-width: 8444px) {
+  .nav-link {
+    padding: 0.5rem;
+    top:0;
+    background-color: rgba(23, 45, 70, 23);
+  }
+  .quote h1 {
+    color: chocolate;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 45px;
+    margin-left: 20px;
+  }
+  .quote{
+    margin-top: 8rem;
+  }
+}
